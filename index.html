@@ -58,7 +58,7 @@
                                     </ul>
                                 </div>
                                 <div class="content__card-col">
-                                    <a href="#" class="content__card-btn">
+                                    <a href="#popup1" class="content__card-btn popup__open">
                                         Отримати код
                                     </a>
                                 </div>
@@ -649,10 +649,53 @@
                                 розділ казино. Поповнення рахунку можливе за допомогою карток та електронних платіжних
                                 систем.
                             </p>
-
                         </aside>
                     </div>
                 </div>
+
+
+                <div class="popup" id="popup1">
+                    <div class="popup__bg">
+                        <img src="images/close.png" class="popup__close">
+                        <p class="popup__title">
+                            Ваш промокод
+                        </p>
+                        <div class="popup__promo">
+                            <div class="popup__promo-box">
+                                <input required class="popup__promo-input" type="text" readonly value="FAVBONUS">
+                                <button class="popup__promo-btn btn btn__promo">
+                                    Скопіювати
+                                </button>
+                            </div>
+                        </div>
+                        <p class="popup__descr">
+                            Реєструйтеся на сайті, щоб отримати бонус
+                        </p>
+                        <a href="#" class="btn btn__popup">
+                            Перейти на Favbet
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="popup" id="popup2">
+                    <div class="popup__bg">
+                        <img src="images/close.svg" class="popup__close">
+                        <form action="" class="popup__form">
+                            <div class="popup__form-box">
+                                <input required class="popup__form-input" type="text" placeholder="Name">
+                                <br>
+                                <input required class="popup__form-input" type="text" placeholder="Name">
+                                <br>
+                                <input required class="popup__form-input" type="tel" placeholder="Phone">
+                            </div>
+                            <button class="popup__form-btn btn btn__form" type="submit">
+                                Submit 2
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+
             </div>
         </section>
     </main>
